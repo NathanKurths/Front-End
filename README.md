@@ -1,2 +1,2 @@
-# CSS-HTML
-Aqui estão alguns projetos com fins de estudos, aprender, e testar.
+# Códigos C/C++
+Here are some codes for study purposes, personal projects, tests, etc.
