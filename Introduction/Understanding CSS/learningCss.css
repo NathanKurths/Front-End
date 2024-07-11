@@ -33,3 +33,11 @@ a{
     text-decoration: none;
     font-variant:normal;
 }
+
+.destaque{
+    color:orange;
+}
+
+#destaque{
+    color:blueviolet;
+}
