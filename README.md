@@ -1,2 +1,2 @@
 # Códigos C/C++
-Here are some codes for study purposes, personal projects, tests, etc.
+Em cada arquivo CPP com "ex" em seu nome, possui a sua descrição comentada no início do arquivo.

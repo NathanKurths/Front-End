@@ -1,5 +1,22 @@
 #include <iostream>
+/*
+Implemente a classe Complexo, lembre-se do exercício 2, onde o número complexo tem a parte real (a) e a parte imaginária (b) ambos do tipo float.
 
+Implemente um construtor que recebe os dois atributos.
+
+Considerando um número complexo a + bi, onde a parte real é a, e a parte imaginária é b, e outro número complexo c + di, onde a parte real é c, e a parte imaginária é d, sobrecarregue os seguintes operadores:
+
+- Complexo - Complexo : Subtração complexa: (a + bi) - (c + di) = (a - c) + (b - d)i
+
+- Complexo + Complexo : Soma complexa: (a + bi) + (c + di) = (a + c) + (b + d)i
+
+- Complexo * Complexo : Multiplicação complexa: (a + bi) + (c + di) = (ac - bd) + (ad + bc)i
+
+- Complexo / Complexo : Divisão complexa: (a + bi) + (c + di) = (ac + bd)/(c2 + d2) + (bc – ad)/(c2 + d2)i
+
+- << Complexo : Escreve na stream: "Real:" << Complexo.a << " Imag:" << Complexo.b
+
+O main já está implementado e irá testar todos os operadores.*/
 class Complexo{
     float a,b;
 

@@ -1,6 +1,36 @@
 #include <iostream>
 #include <cmath>
 
+/*
+Implemente a classe Vetor3 para representar um vetor tridimensional no plano cartesiano. Ela deve ter três floats: x, y, e z . Implemente um construtor que receba estes três atributos.
+
+Use a sobrecarga de operadores para implementar as seguintes operações:
+
+- Vetor3 + Vetor3 : soma vetorial de dois vetores.
+
+- Vetor3 + float : soma escalar em todas as componentes.
+
+- float + Vetor3 : mesmo que acima
+
+- Vetor3 - Vetor3 : subtração vetorial de dois vetores.
+
+- Vetor3 - float : subtração escalar em todas as componentes.
+
+- float - Vector 3 : mesmo que acima
+
+- Vetor3 * float : Multiplicação escalar em todas as componentes.
+
+- float * Vector 3 : mesmo que acima
+
+- Vector3 / float : Divisão escalar em todas as componentes.
+
+- Vector3[n] : retorna o componente n, i.e., Vector3[0] retorna x, Vector3[1] retorna y e Vector3[2] retorna z.
+
+- Vector3() : retorna a norma do vetor, i.e., sqrt(x*x + y*y + z*z).
+
+- !Vector3 : retorna o versor do vetor, i.e., Vector3/Vector3().
+
+- << Vector3 : escreva na stream "x:" << Vetor3.x << " y:" Vetor3.y << " z:" Vetor3.z*/
 class Vetor3{
     float x,y,z;
     public:
