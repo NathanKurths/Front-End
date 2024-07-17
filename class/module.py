@@ -19,11 +19,3 @@ class Restaurant():
     def increment_number_served(self, value):
         self.number_served += value
         print("O restaurante atendeu " + str(self.number_served) + " clientes.")
-     
-class IceCreamStand(Restaurant):
-    def __init__(self, restaurant_name, cuisine_type):
-        super().__init__(restaurant_name, cuisine_type)
-        self.flavors = ['chocolate', 'morango', 'baunilha']
-        
-my_restaurant = IceCreamStand('natrix','sorveteria')
-print(my_restaurant.flavors)
