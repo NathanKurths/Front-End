@@ -1,6 +1,6 @@
 import unittest
 
-class Employe():
+class Employee():
     def __init__(self, first_name, last_name, annual_salary):
         self.first_name = first_name
         self.last_name = last_name
@@ -12,11 +12,13 @@ class Employe():
         self.annual_salary = self.annual_salary + upgrade
         return self.annual_salary
         
-class TestEmploye(unittest.TestCase):
+class TestEmployee(unittest.TestCase):
+    def setUp(self):
+        self.person = Employee('nathan','kurths','220')
+        self.person.give_raise(220)
+        
     def test_give_raise(self):
-        person = Employe('nathan','kurths','300')
-        new_salary = person.give_raise(450)
-        self.assertEqual(new_salary, 750)
+        self.assertEqual(self.person.annual_salary, 440)
         
 unittest.main()
         
