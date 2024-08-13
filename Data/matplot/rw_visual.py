@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from random_walk import RandomWalk
+from matplot.random_walk import RandomWalk
 
 # Continua criando novos passeios enquanto o programa estiver ativo
 while True:
